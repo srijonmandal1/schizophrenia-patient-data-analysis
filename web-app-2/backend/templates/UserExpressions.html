@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Expressions</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <form id="dataUploadForm" enctype="multipart/form-data">
+        <input type="file" id="dataFile" name="dataFile" required><br>
+        <button type="button" id="uploadButton">Upload</button>
+    </form>
+    <button type="button" id="analyzeButton">Analyze</button>
+    <div id="analysisResult"></div>
+
+    <script>
+        $(document).ready(function() {
+            $('#uploadButton').click(function() {
+                var formData = new FormData();
+                formData.append('dataFile', $('#dataFile')[0].files[0]);
+
+                $.ajax({
+                    type: 'POST',
+                    url: '/upload_data_file',
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: function(response) {
+                        alert('File uploaded successfully!');
+                    },
+                    error: function() {
+                        alert('File upload failed.');
+                    }
+                });
+            });
+
+            $('#analyzeButton').click(function() {
+                $.ajax({
+                    type: 'GET',
+                    url: '/analyze_data',
+                    success: function(response) {
+                        $('#analysisResult').html(response.analysis);
+                    },
+                    error: function() {
+                        alert('Analysis failed.');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
