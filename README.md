@@ -1,4 +1,4 @@
-# schizophrenia-patient-data-analysis
+# Schizophrenia Patient Data Analysis
 
 This Project has various components 
 ## Emotion Detection Model:
