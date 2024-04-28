@@ -13,5 +13,6 @@ https://github.com/Azure/azureml-examples/tree/main/sdk/python/generative-ai/rag
 Detect sentiment of user
 Instructions: 
 Download the emotion-detection folder and in an environment run following commands:
+
  ```pip install -r requirements.txt```
  ```python3 main.py```
