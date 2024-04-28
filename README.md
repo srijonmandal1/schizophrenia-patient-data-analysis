@@ -9,6 +9,10 @@ https://github.com/ShoupingShan/Abnormal-behavior-Detection
 
 https://github.com/Azure/azureml-examples/tree/main/sdk/python/generative-ai/rag/notebooks
 
+## Text Classification using Azure AI
+
+https://github.com/Azure/azureml-examples/blob/main/sdk/python/foundation-models/system/inference/text-classification/entailment-contradiction-batch.ipynb
+
 ## Emotion Detection Model:
 Detect sentiment of user
 Instructions: 
