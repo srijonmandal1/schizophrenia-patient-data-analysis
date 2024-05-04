@@ -41,4 +41,6 @@ def detect_emotion(images,conf=True):
             emotion = (max(y[i]) == y[i]).nonzero().item()
             # Add appropriate label if required
             result.append([f"{emotions[emotion]}{f' ({100*y[i][emotion].item():.1f}%)' if conf else ''}",emotion])
+            with open ("output.txt","w") as file:
+                file.write(f"{emotions[emotion]}{f' ({100*y[i][emotion].item():.1f}%)' if conf else ''}")
     return result
