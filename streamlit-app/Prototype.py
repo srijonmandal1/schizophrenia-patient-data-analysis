@@ -415,7 +415,6 @@ def display_info():
     "Despite advances in mental health care, there remains a significant treatment gap for schizophrenia. Many individuals with schizophrenia do not receive adequate care or support, leading to poorer outcomes and increased risk of relapse and hospitalization."
 
 def display_analysis():
-    api_key_string = "sk-proj-OeOQW9GqTmSXvyrC9H60T3BlbkFJ2ka1DX8VxLwVOm3usWeD"
     st.image("/home/azureuser/project/schizophrenia-patient-data-analysis-main/images/ms-imagine___All Page first image.jpg", width=700)
     from openai import OpenAI
     from io import StringIO
