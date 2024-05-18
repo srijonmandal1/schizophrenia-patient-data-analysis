@@ -17,6 +17,12 @@ Early intervention, comprehensive treatment approaches, and support from healthc
 
 ## Solution Approach
 
+### Report
+
+[Link to complete Report](reports
+/Generative AI for Humanitarian Cause_ Schizophrenia Patient Data Analysis.pdf
+)
+
 ### Functional Modules
 ![image info](images/imagine_1.png)
 #### Advanced AI Technologies are used for content synthesis and Q&A:
