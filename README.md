@@ -55,7 +55,7 @@ nohup python3 Prototype.py &
 tail -f nohup.out
 ```
 - View the App
-  Use the localhost or IP Address assigned to the VM. For example, the below URL can be accessed by anyone. This Demo VM is VM is running in Azure.
+  Use the localhost or IP Address assigned to the VM. For example, the below URL can be accessed by anyone. This Demo VM is running in Azure.
 ```
 http://13.83.89.195:8080
 Login: 
