@@ -19,9 +19,7 @@ Early intervention, comprehensive treatment approaches, and support from healthc
 
 ### Report
 
-[Link to complete Report](reports
-/Generative AI for Humanitarian Cause_ Schizophrenia Patient Data Analysis.pdf
-)
+[Link to complete Report](https://github.com/srijonmandal1/schizophrenia-patient-data-analysis/blob/main/reports/Generative%20AI%20for%20Humanitarian%20Cause_%20Schizophrenia%20Patient%20Data%20Analysis.pdf)
 
 ### Functional Modules
 ![image info](images/imagine_1.png)
