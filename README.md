@@ -1,11 +1,12 @@
 # Schizophrenia Patient Data Analysis
 
 ## Goal
-``
+```
 The primary goal is to develop a Schizophrenia Monitoring & Analysis System that leverages advanced AI technologies to assist medical professionals by providing a more standardized, objective, and efficient method of diagnosing and monitoring schizophrenic patients. 
 This application will analyze multimodal data inputs - video recordings, speech patterns, and textual information from patient interactions to detect and predict symptom patterns and severity, aiding medical professionals in making informed treatment decisions.
 ```
 ## Problem Description
+
 ```
 Schizophrenia is a complex and chronic mental health disorder marked by symptoms such as delusions, hallucinations, disorganized thinking and impaired social functioning, often co-occurs with depression, anxiety disorders, and substance abuse. 
 
