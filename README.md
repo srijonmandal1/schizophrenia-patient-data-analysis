@@ -34,7 +34,7 @@ Early intervention, comprehensive treatment approaches, and support from healthc
 - Open-AI and RAG based Virtual Agent: It assists researchers and medical professionals by answering queries related to the patient data and broader schizophrenia research, facilitating an interactive, learning-enhanced environment.
 
 ### User Interaction
-<img src="images/imagine_2.png" alt="isolated" width="600"/>
+<img src="images/imagine_2.png" alt="isolated" width="800"/>
 
 ### App Execution
 
