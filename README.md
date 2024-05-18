@@ -18,7 +18,7 @@ Early intervention, comprehensive treatment approaches, and support from healthc
 ## Solution Approach
 
 ### Functional Modules
-![image info](../images/imagine_1.png)
+![image info](images/imagine_1.png)
 #### Advanced AI Technologies are used for content synthesis and Q&A:
 - OpenAI Prompt Engineering and Whisper: For processing and understanding natural language inputs and converting speech to text with high accuracy.
 - Hugging Face Transformer and OpenAI for Emotion Detection: To interpret emotional states from text, providing insights into the patient's mental state.
@@ -35,7 +35,7 @@ Early intervention, comprehensive treatment approaches, and support from healthc
 
 ### User Interaction
 
-![image info](../images/imagine_2.png)
+![image info](images/imagine_2.png)
 
 ### App Execution
 
