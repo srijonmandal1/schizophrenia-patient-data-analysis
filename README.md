@@ -1,16 +1,48 @@
 # Schizophrenia Patient Data Analysis
 
-This Project has various components 
-## Emotion Detection Model:
-Detect sentiment of user
-Instructions: 
-Download the emotion-detection folder and in an environment run following commands:
 
- ```pip install -r requirements.txt```
- ```python3 main.py```
+## Run App
+- Go to the app folder
+```
+cd streamlit-app
+```
+- Set OPENAI API Key
+  
+  Export OPENAI_API_KEY in the VM
+  
+  Set api_key_string in Prototype.py
+  
+- Run the Prototype
+```
+nohup python3 Prototype.py &
+tail -f nohup.out
+```
+- View the App
+  Use the localhost or IP Address assigned to the VM. For example, the below URL can be accessed by anyone. This Demo VM is VM is running in Azure.
+```
+http://13.83.89.195:8080
+Login: 
+     user: admin 
+     password: Admin@123
+```
+
+## Project Components 
+### Emotion Detection from Speech
+- it can be tested indepdentely as follows
+```
+cd emotion-detection
+pip install -r requirements.txt
+python3 main.py
+```
+### Emotion Detection from Video (Facial Expression)
 
 
-## References
+## ToDo
+- Use relative path for images.
+- At this point, users who will clone this repo, need to change the image file path in streamlit-app/Prototype.py based on the local folder location.
+
+
+## Reference Resources
 ### Behavior Detection:
 
 https://github.com/ShoupingShan/Abnormal-behavior-Detection 
